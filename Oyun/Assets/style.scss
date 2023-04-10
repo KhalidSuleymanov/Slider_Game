@@ -1,0 +1,21 @@
+.area {
+    background-color: rgb(24, 108, 182);
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 20rem;
+}
+
+.man {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    color: black;
+    font-size: 80px;
+}
+
+// .active{
+//     display: block;
+// }
