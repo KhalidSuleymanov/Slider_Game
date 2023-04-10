@@ -1,0 +1,146 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.search-drop {
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  padding: 34px;
+  background-color: #fff;
+}
+.search-drop input {
+  width: 100%;
+  padding: 10px 20px;
+  font-size: 40px;
+  border: none;
+  outline: none;
+}
+.search-drop input::-moz-placeholder {
+  font-size: 40px;
+  color: #a1a1a1;
+}
+.search-drop input::placeholder {
+  font-size: 40px;
+  color: #a1a1a1;
+}
+.search-drop i {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.allnavdiv {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px 45px;
+  background-color: #F6F7F8;
+  position: fixed;
+}
+.allnavdiv .nav-left {
+  display: flex;
+  gap: 1.5rem;
+}
+.allnavdiv .nav-left .a-des {
+  text-decoration: none;
+  color: #666666;
+  position: relative;
+  font-size: 13px;
+  padding-top: 0.35rem;
+}
+.allnavdiv .nav-left .a-des:hover {
+  color: #000000;
+}
+.allnavdiv .nav-right {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 0.35rem;
+}
+.allnavdiv .nav-right .a-des1 {
+  text-decoration: none;
+  color: #666666;
+  padding-right: 1rem;
+}
+.allnavdiv .nav-right #search {
+  padding-top: 0.45rem;
+  font-size: 13px;
+}
+.allnavdiv .nav-right #phone {
+  padding-top: 0.7rem;
+  color: #aaaaaa;
+}
+.allnavdiv .nav-right .p-des1 {
+  text-decoration: none;
+  color: #494949;
+  font-weight: 700;
+}
+
+#arrow {
+  cursor: pointer;
+  margin: 0 4px;
+}
+
+#carbtn {
+  border-radius: 60px;
+  background-color: white;
+  border: 0.5px solid blue;
+}
+#carbtn span {
+  color: rgb(31, 31, 195);
+  font-weight: 600;
+  padding: 9px 4px;
+}
+#carbtn:hover {
+  background-color: #0056C1;
+  color: #fff;
+}
+#carbtn:hover span {
+  color: #fff;
+}
+
+.eng-des {
+  padding-left: 10px;
+}
+.eng-des:hover {
+  background-color: #F5F5F5;
+}
+
+.rus-des {
+  padding-left: 10px;
+}
+.rus-des:hover {
+  background-color: #F5F5F5;
+}
+
+.lang-des {
+  width: 10%;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  left: 86%;
+  display: none;
+  position: absolute;
+  box-shadow: 1px 1px 1px 1px;
+}
+.lang-des::before {
+  border-color: transparent transparent #fff;
+  border-style: solid;
+  border-width: 0 7px 10px;
+  bottom: 100%;
+  content: "";
+  height: 0;
+  left: 75%;
+  position: absolute;
+  width: 0;
+}
+
+.arrow {
+  transition: 0.4s;
+  rotate: 180deg;
+}
+
+.active {
+  display: block;
+}/*# sourceMappingURL=style.css.map */
